@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <form class="column">
+        <div>
+          <label for="op1">Operando 1:</label>
+          <input id="op1" type="number" required />
+        </div>
+        <div>
+          <label for="operador">Operador:</label>
+          <select name="operador" id="operador">
+            <option value="soma">➕</option>
+            <option value="subtracao">➖</option>
+            <option value="multiplicacao">✖</option>
+            <option value="divisao">➗</option>
+          </select>
+        </div>
+        <div>
+          <label for="op2">Operando 2:</label>
+          <input id="op2" type="number" required />
+        </div>
+      </form>
+      <button id="calculate">Calculate</button>
+      <h2 id="result"></h2>
+    </div>
+  </body>
+</html>
