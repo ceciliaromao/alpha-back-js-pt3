@@ -2,7 +2,7 @@
 
 # Back-End
 
-## Módulo 6 - JavaScript - Part 3
+## Módulo 7 - JavaScript - Part 3
 
 ### Exercícios de classe 🏫
 
@@ -15,4 +15,4 @@ Observação:
 - Botão: “calcular” ao ser clicado exibe o cálculo conforme operador selecionado;
 O formulário deve estar bem formatado, com título e ser apresentado como um “Card” (utilize seu conhecimento de ‘flexbox’ e CSS para isso).
 
-###### tags: `módulo 6` `back-end` `JavaScript`
+###### tags: `módulo 7` `back-end` `JavaScript`
